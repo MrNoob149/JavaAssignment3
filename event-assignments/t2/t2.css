@@ -24,3 +24,29 @@ td {
   border-bottom: 1px solid #ccc;
   padding: 0.5em 1em;
 }
+
+.highlight {
+    background-color: ivory;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+first-child {
+    cursor: pointer;
+}
+
+dialog {
+    padding: 2em;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+backdrop {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+dialog button {
+    padding: 0.5em 1em;
+    cursor: pointer;
+}
